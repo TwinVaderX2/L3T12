@@ -1,0 +1,5 @@
+# ignore virtual environment
+spacy/
+
+# ingore task answer
+semantic_similarity.txt
