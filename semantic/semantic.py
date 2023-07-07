@@ -1,7 +1,7 @@
 # import models and load language model in spacy
 import spacy
-# nlp = spacy.load('en_core_web_md')
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_md')
+# nlp = spacy.load('en_core_web_sm')
 
 # create tokens that need to be compare for similarity
 tokens = nlp('cat apple monkey banana ')
